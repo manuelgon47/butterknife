@@ -22,6 +22,7 @@ import butterknife.OnItemLongClick;
 import butterknife.OnItemSelected;
 import butterknife.OnLongClick;
 import butterknife.OnPageChange;
+import butterknife.OnTap;
 import butterknife.OnTextChanged;
 import butterknife.OnTouch;
 import butterknife.Optional;
@@ -103,6 +104,7 @@ public final class ButterKnifeProcessor extends AbstractProcessor {
   private static final List<Class<? extends Annotation>> LISTENERS = Arrays.asList(//
       OnCheckedChanged.class, //
       OnClick.class, //
+      OnTap.class, //
       OnEditorAction.class, //
       OnFocusChange.class, //
       OnItemClick.class, //
